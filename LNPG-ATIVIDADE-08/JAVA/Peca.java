@@ -2,7 +2,7 @@ public class Peca {
     private String tipoPeca;
     private String corPeca;
     protected int linhaAtual;
-    protected int colunaAtual; // Modificado para protected
+    protected int colunaAtual; // Modificado para protected porque tava dando erro com private.
 
     public Peca(String tipoPeca, String corPeca, int linhaAtual, int colunaAtual) {
         this.tipoPeca = tipoPeca;
